@@ -7,7 +7,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Template form';
+  title = 'Reactive form';
   frm: FormGroup;
   
   constructor(private formbuilder: FormBuilder) {
